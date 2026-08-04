@@ -9,7 +9,7 @@ export const monogramSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
       <stop stop-color="#fff" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="monogram-y" x1="16" y1="9" x2="16" y2="24" gradientUnits="userSpaceOnUse">
+    <linearGradient id="monogram-mark" x1="16" y1="8" x2="16" y2="24" gradientUnits="userSpaceOnUse">
       <stop stop-color="#fff"/>
       <stop offset="1" stop-color="#e0e7ff"/>
     </linearGradient>
@@ -17,10 +17,9 @@ export const monogramSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
   <rect width="32" height="32" rx="9" fill="url(#monogram-bg)"/>
   <rect width="32" height="32" rx="9" fill="url(#monogram-shine)"/>
   <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="8.25" stroke="#fff" stroke-opacity="0.18" stroke-width="0.75"/>
-  <path d="M7.5 10.5h3M21.5 10.5h3" stroke="url(#monogram-y)" stroke-width="2" stroke-linecap="round"/>
-  <path d="M9.25 10.5 16 18.75 22.75 10.5" stroke="url(#monogram-y)" stroke-width="2.65" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16 18.75V24.25" stroke="url(#monogram-y)" stroke-width="2.65" stroke-linecap="round"/>
-  <circle cx="16" cy="18.75" r="3.25" stroke="#fff" stroke-opacity="0.35" stroke-width="1"/>
-  <circle cx="16" cy="18.75" r="1.35" fill="#fff"/>
+  <path d="M7.75 11V9.25h1.75M24.25 11V9.25h-1.75M7.75 21v1.75h1.75M24.25 21v1.75h-1.75" stroke="#fff" stroke-opacity="0.4" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11 11 7.25 16 11 21" stroke="url(#monogram-mark)" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.35 10.75 14.65 21.25" stroke="url(#monogram-mark)" stroke-width="2.35" stroke-linecap="round"/>
+  <path d="M21 11 24.75 16 21 21" stroke="url(#monogram-mark)" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="24.5" cy="7.5" r="1" fill="#fff" fill-opacity="0.55"/>
 </svg>`;

@@ -14,7 +14,7 @@ export default function About() {
       <Reveal as="div" variant="fade">
         <PageHeader
           title="About"
-          subtitle="I’m Yisroel Krausz. Code Canvas is my platform where I build and ship web apps, tools, and software solutions for businesses and individuals."
+          subtitle="I’m Yisroel Krausz and Code Canvas is my platform to design, build and ship web apps, tools, and software solutions."
           gradient
         />
       </Reveal>

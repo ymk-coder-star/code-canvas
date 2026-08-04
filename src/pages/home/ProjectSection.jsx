@@ -42,7 +42,7 @@ export default function ProjectSection({
         </p>
       </Reveal>
       {/* Mobile: horizontal snap-scroll grid (equal card heights). sm+: 2 cols, lg+: 3 cols. */}
-      <div className="-mx-4 grid auto-cols-[min(85vw,20rem)] grid-flow-col items-stretch gap-4 overflow-x-auto overscroll-x-contain scroll-auto snap-x snap-proximity touch-pan-x px-[calc(50%-min(42.5vw,10rem))] pb-2 [-webkit-overflow-scrolling:touch] [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-2 sm:gap-8 sm:snap-none sm:overflow-visible sm:overscroll-auto sm:px-0 sm:pb-0 sm:touch-auto lg:grid-cols-3">
+      <div className="-mx-4 grid auto-cols-[min(85vw,20rem)] grid-flow-col items-stretch gap-4 overflow-x-auto overscroll-x-contain scroll-auto snap-x snap-proximity touch-pan-x touch-pan-y px-[calc(50%-min(42.5vw,10rem))] pb-2 [-webkit-overflow-scrolling:touch] [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:auto-cols-auto sm:grid-flow-row sm:grid-cols-2 sm:gap-8 sm:snap-none sm:overflow-visible sm:overscroll-auto sm:px-0 sm:pb-0 sm:touch-auto lg:grid-cols-3">
         {projects.map((project, index) => {
           const card = (
             <ProjectCard project={project} priority={priorityFirst && index === 0} />

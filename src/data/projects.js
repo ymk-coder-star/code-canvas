@@ -45,7 +45,7 @@ export const projects = [
     src: weatherApp,
     href: 'https://weather-forecast-4c393.web.app/',
     repo: 'https://github.com/ymk-coder-star/weather-app',
-    tags: ['React', 'TypeScript', 'Tailwind'],
+    tags: ['React', 'TypeScript', 'Tailwind', 'Playwright', 'Jest'],
   },
   {
     id: 'memory-game',

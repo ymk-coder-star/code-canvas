@@ -18,6 +18,6 @@ export const techStack = [
   },
   {
     category: 'Testing',
-    skills: ['Jest', 'Vitest', 'React Testing Library'],
+    skills: ['Jest', 'Vitest', 'React Testing Library', 'Playwright'],
   },
 ];
