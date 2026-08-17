@@ -11,7 +11,7 @@ export const siteDescription =
 export const ogImageUrl = `${siteUrl}/site-preview.webp`;
 
 /** Static assets in /public — paths respect CRA homepage (root deploy). */
-export const CVFilename = 'Yisroel-Krausz-CV.pdf';
+export const CVFilename = 'Yisroel_Krausz_CV.pdf';
 
 export const CVUrl = `${process.env.PUBLIC_URL}/${CVFilename}`;
 
