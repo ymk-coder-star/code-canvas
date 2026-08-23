@@ -15,7 +15,7 @@ export const CVFilename = 'Yisroel_Krausz_CV.pdf';
 
 export const CVUrl = `${process.env.PUBLIC_URL}/${CVFilename}`;
 
-export const contactEmail = 'ymk613.dev@gmail.com';
+export const contactEmail = 'yisroel@codecanvas.uk';
 
 export const contactMailto = `mailto:${contactEmail}`;
 
