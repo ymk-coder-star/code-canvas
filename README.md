@@ -1,6 +1,6 @@
 # Code Canvas
 
-The source for [codecanvas.uk](https://codecanvas.uk) — Code Canvas, the software studio site for Yisroel Krausz.
+The React portfolio and software development studio website for Yisroel Krausz, live at [codecanvas.uk](https://codecanvas.uk).
 
 The site presents services and selected work on the home page, a full portfolio of commercial and personal projects, case studies, and an about page with profile, tech stack, CV, and contact links.
 
@@ -81,4 +81,4 @@ Configured for Vercel. `vercel.json` rewrites application routes to `index.html`
 
 ## License
 
-Private project. All rights reserved.
+All rights reserved. This repository is publicly viewable; no open-source license is granted.
